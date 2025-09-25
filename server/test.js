@@ -1,7 +1,6 @@
 const http = require('http');
 const assert = require('assert');
 const { spawn } = require('child_process');
-const fetch = require('node-fetch');
 
 describe('Server', function() {
   let serverProcess;
