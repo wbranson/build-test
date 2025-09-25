@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "mocha": "^11.7.2",
+    "node-fetch": "^3.3.2"
+  }
 }
